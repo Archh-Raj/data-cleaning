@@ -1,0 +1,29 @@
+is data or are data?
+	singular - datum
+	plural   - data
+
+================================================================
+limitations in data.
+-----------------------------------------------------------------
+	1. we need to consider the whether the data reflect or where the data come from are the same as the thing that you really want to study
+
+example:
+	Lets say if you tell the people to fill the form about the purchase they did from 1 year ago, of coaurse you will definitely get the data. But the question is with that data can you get any usefull information based on their purchase decision like their economy situation or something most probably not because what we are doing is measuring their memory capabilities.
+	
+	The mainn thing is if the reporting is done poor way or the data is poor it's nearly impossible to make any important decision based on the data so that it won't have any major medical or social, economical or political impact or actions
+
+	2. Measurements are noisy, People are complicated, many factors that influence the data if you don't take this factors into consideration then the data may be misleading
+
+example:
+	If you take the survey of how may people are eating icecream. But you only taking the survey on winter then you are getting totally inaccurate picture of how may icecream are consumed by human civilization anually	
+==================================================================
+------------------------------------------------------------------
+GIGO(garbage in, garbage out)
+------------------------------------------------------------------
+ Bad data leads to bad results
+ No fancy machine learing technique can compensate for bad data
+ You can't make good decisions with bad data.
+The best decision to make when you have low quality data or low amount data is to find a way to get
+more high quality data so that you can make better decision instead of making low quality decision with low quality data.
+==================================================================
+

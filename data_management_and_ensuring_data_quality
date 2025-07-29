@@ -1,0 +1,68 @@
+========================================================================
+Data management
+------------------------------------------------------------------------
+ Documentation
+ storage/backup
+ security
+ code formatting
+
+------------------------------------------------------------------------
+Factors to consider in the data plan
+------------------------------------------------------------------------
+ Data format
+ Naming and file structure
+ Access
+ storage and backup
+ code
+========================================================================
+What to document?
+------------------------------------------------------------------------
+	1. Data origins (timestamps, description, context details)
+	2. description of which algorithms have beed applied if the data is already cleaned
+	3. data quality metrics and visualizations
+	4. instructions for importing and working with data
+------------------------------------------------------------------------
+Bigger organization -> more documentation
+Sensitive data -> more documentation
+------------------------------------------------------------------------
+Follow a fixed template or style
+------------------------------------------------------------------------
+========================================================================
+Data cleaning phases
+------------------------------------------------------------------------
+ 1. Improve data quality before getting data
+	Best stage to ensure high data quality, Only possible when you involved in the data acqusition
+	or generation. try to find what could go wrong and how to prevent it before they occur?
+	
+	*Run a "Pilot study".
+		A pilot study is a small-simple version of the full study.
+		Also used as proof-of-principle
+		Will show how will be the data quality of sample data.
+		and also what are the problems you can anticipate in the 
+		future data.
+		Don't make important decisions based on the pilot data.
+
+ 2. during data collection.
+	This strategy is not always applicable. MOnitor the data as they are being collected.
+	If possible, stop data collection and fix the problems.
+	never assume that bad data can be perfectly cleaned in "offline"(after data collection)
+	analyses.
+	Don't interpret the data. Juat monitor the data quality.
+
+ 3. after data collection
+	Use data quality metrics to identify and remove or correct bad
+	data(missing, noisy, outliers)
+	Scale or transform data id appropriate
+	best done before analyses to avoid biased data selection
+
+	But most of them rely on threshold, which are often arbitrary and may have unforeseen
+	impact on results.
+		Follow established procedures
+		use pilot data to evaluate impact of data cleaning pipeline.
+	Most difficult part is picking thresholds
+
+ 4. during data analysis.
+ 	Worst time to clean the data
+	if you find something wrong in this stage then the previous data cleaning has some problems sp go back to the prvious method and correct the data cleaning methods
+==========================================================================
+

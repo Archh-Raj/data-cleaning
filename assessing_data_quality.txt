@@ -1,0 +1,63 @@
+===============================================================================================
+qualitative vs quantitative
+-----------------------------------------------------------------------------------------------
+Qualitative(subjective)(visual inspection):
+	Requires some experiance
+	usually visual based(either high quality or low quality no debate)
+	can be more insightfull
+	often interative
+Quantitative(objective)(accessing using algorithms):
+	Reproducible by anyone
+	Algorithmic
+	may miss important patterns in the data
+	requires little or no human involvement
+-----------------------------------------------------------------------------------------------
+Quantitative:
+	An algorithm identifies potential outliers or bad data
+Qualitative:
+	Marked data are visually confirmed before final rejection
+-----------------------------------------------------------------------------------------------
+Data types to remember
+	Numerical -> height, income, etc
+		can do math with numerical data like 1 meter + 2 meter = 3 meter
+	categorical(labeled data) -> gender, country, education level 
+		cannot do math eg,: let's assign number to education
+		primary edu - 1
+		secondary edu - 2
+		university - 3
+		but we cannot say primary edu + secondary edu = university
+
+==============================================================================================
+Data Visualization:
+----------------------------------------------------------------------------------------------
+Bar plot
+	Bar plots for categorical data.
+	categorical data are discrete groups or labels
+	They are often visualized in bar plots, with the labels on the x-axis
+	Individual data points can also be shown.
+
+what to look for in bar plots.
+	check that all categories are present.
+	check that the bar heights make sense
+	look for individual data points that might be outliers
+	check for too little or too much variability(gap between data points)
+----------------------------------------------------------------------------------------------
+Pie chart
+	Pie charts for proportional categorical data
+	pie charts only make sense when all categories sum to 100%
+
+what to look.
+	make sure all data sum to 100%
+	Negative numbers don't make sense in pie charts
+----------------------------------------------------------------------------------------------
+Box-and-Whiskers plot(a.k.a box plot)
+	Numerical data are continuous and take a range of values
+what to look
+	values in expected ranges
+	outliers(asterisks)
+	individual data values
+----------------------------------------------------------------------------------------------
+Scatter plots for 2d data
+	All individual data values are plotted
+	can reveal interesting patterns or problems
+----------------------------------------------------------------------------------------------

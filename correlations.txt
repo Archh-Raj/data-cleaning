@@ -1,0 +1,34 @@
+correlation:
+	A correlation analysis computes a correlation cosfficient
+
+	correlation coefficient is a single number that shows the linear relation between
+	two variables
+
+	cor coe varies between -1 and +1
+	+1 -> perfect positive linear ]
+	relationship(can be prefectly predicted by it's value )
+	-1 => perfect inverse linear relationship
+	0 -> no linear relationship(there may other relationship)
+
+	cor coe itself is a continuous measure of correlation strength
+	A corresponding p-value must be computed to interpret its 
+	statistical significance 
+
+	Correlation merely shows a relationship
+
+	It does not reveal or imply link or casuality
+
+	causality can be demonstrated by experimental 
+	manipulation
+
+	Let's say ice cream buying count is correlated with shark attacks
+	that doesn't mean if you buy more ice creams there will be more shark attacks 
+	but both are independently correlated with season like in summer more people go
+	to beach and also buy more icecreams
+
+================================================================================== 
+	what is Anscobe's quatet
+
+==================================================================================
+Pearson correlation can over or under represent relationships if they contain non 
+ linearities or outliers

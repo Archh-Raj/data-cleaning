@@ -1,0 +1,21 @@
+there is a formula for variance
+
+
+How large the data is distrubuted
+
+============================================================
+Variance:
+	Variance is in the scale of data
+
+	The raw vairance value may be difficult to interpret
+
+	Look for large differences in variance across variables
+
+	High variance increase risk of statistical flukes and unreliable results
+
+	z-scoring or other normalizations may be appropriate
+
+============================================================
+standard deviation:
+
+	positive sqare root of standard deviance
